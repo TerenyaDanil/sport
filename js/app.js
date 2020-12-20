@@ -139,7 +139,7 @@
 var swiper = new Swiper('.swiper-container', {
 	loop: true,
 	spaceBetween: 100,
-
+	grabCursor: true,
 	speed: 1000,
 	navigation: {
 		nextEl: '.swiper-button-next',
